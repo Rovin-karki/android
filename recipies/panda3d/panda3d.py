@@ -3,7 +3,7 @@ from os.path import join
 import sh
 
 class Panda3DRecipe(Recipe):
-    version = "1.10.13"  # Specify the desired version
+    version = "1.10.15"  # Specify the desired version
     url = f"https://github.com/panda3d/panda3d/archive/v{version}.tar.gz"
     depends = ["python3", "freetype", "libpng", "zlib"]  # Add core dependencies
     conflicts = []  # Specify conflicts if any
