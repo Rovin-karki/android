@@ -1,0 +1,5 @@
+--- OriginalFile.cpp
++++ PatchedFile.cpp
+@@ -10,7 +10,7 @@
+- #include <unsupported_file.h>
++ #include <supported_file.h>
